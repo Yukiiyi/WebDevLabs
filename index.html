@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yuqi">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Yuqi professional website">
+    <title>Yuqi</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload=" addYear()">
+    <header>
+        <h1 id ="webname">Yuqi</h1>
+        <nav id="myTopnav" class="topnav">> 
+            <a href="index.html" class="active">Home</a>
+            <a href="CV.html">CV</a>
+            <a href="contact.html">Contact me</a>
+            <a href="fun.html">For fun</a>
+            <a href="javascript:void(0);" class="icon" >
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2 id = "greeting"></h2>
+        <img class="classA" src="Yuqi.png" alt="Yuqi Zou profile image" width="350px" class="classA">   
+        <div class="classA">
+        <span id="shortIntro">Greetings. My name is Yuqi</span>
+        <span id="readMore"> read more ...</span>
+        <span id="longIntro">I am a sophomore at Cmu studying information systems.Since middle school, I have embraced the challenge and excitement of studying abroad, attending boarding schools that not only broadened my educational horizons but also instilled in me a deep appreciation for diverse cultures and perspectives. Outside the classroom, I am driven by a passion for exploration and adventure. Traveling has become more than just a hobby; it is a way of life that allows me to immerse myself in the beauty and diversity of our world. Whether it's carving down snow-covered slopes on my snowboard or savoring the myriad flavors of international cuisines, I am always in pursuit of new experiences and the joy they bring. This quest for knowledge, combined with my love for travel, snowboarding, and culinary exploration, defines who I am and continues to shape</span>
+        <span id="readLess"> read less</span>
+        </div>
+        <!-- <p id="intro">Greetings. My name is Yuqi. I am a sophomore at Cmu studying information systems.Since middle school, I have embraced the challenge and excitement of studying abroad, attending boarding schools that not only broadened my educational horizons but also instilled in me a deep appreciation for diverse cultures and perspectives. Outside the classroom, I am driven by a passion for exploration and adventure. Traveling has become more than just a hobby; it is a way of life that allows me to immerse myself in the beauty and diversity of our world. Whether it's carving down snow-covered slopes on my snowboard or savoring the myriad flavors of international cuisines, I am always in pursuit of new experiences and the joy they bring. This quest for knowledge, combined with my love for travel, snowboarding, and culinary exploration, defines who I am and continues to shape </p> -->
+    </div>
+    <footer>
+        <p id="copyYear">Yuqi &copy</p>
+    </footer>
+</body>
+</html>
